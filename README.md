@@ -15,27 +15,11 @@ Visual representation of technologies I have explored and utilized over the past
 ```mermaid
 pie
     title Programming Language Distribution
-    "Python": 40
-    "Java": 30
-    "JavaScript": 20
-    "C++": 10
+    "Python": 30
+    "JavaScript": 30
+    "C++": 40
 ```
 A breakdown of programming languages I frequently use in my projects.
-
----
-
-## Project Timeline
-```mermaid
-gantt
-    title Project Timeline
-    dateFormat  YYYY-MM-DD
-    section Completed Projects
-    Project A         :done,    des1, 2026-01-01, 2026-03-01
-    Project B         :done,    des2, 2026-02-01, 2026-04-01
-    section Ongoing Projects
-    Project C         :active,  after des2  , 30d
-```
-An overview of projects completed and ongoing, showcasing progress and future plans.
 
 ---
 
