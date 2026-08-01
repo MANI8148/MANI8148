@@ -1,4 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="MAX — profile.sh --live">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="MAX — profile.sh --live"><style>
+  @keyframes pixwipe1 { 0%{clip-path:inset(0 100% 0 0)} 16%{clip-path:inset(0 0 0 0)} 28%{clip-path:inset(0 0 0 0)} 34%{clip-path:inset(0 100% 0 0)} 100%{clip-path:inset(0 100% 0 0)} }
+  @keyframes pixwipe2 { 0%{clip-path:inset(0 100% 0 0)} 36%{clip-path:inset(0 100% 0 0)} 52%{clip-path:inset(0 0 0 0)} 64%{clip-path:inset(0 0 0 0)} 70%{clip-path:inset(0 100% 0 0)} 100%{clip-path:inset(0 100% 0 0)} }
+  @keyframes pixwipe3 { 0%{clip-path:inset(0 100% 0 0)} 72%{clip-path:inset(0 100% 0 0)} 84%{clip-path:inset(0 0 0 0)} 92%{clip-path:inset(0 0 0 0)} 98%{clip-path:inset(0 100% 0 0)} 100%{clip-path:inset(0 100% 0 0)} }
+  @keyframes cycleCur { 0%{transform:translateX(0);opacity:1} 16%{transform:translateX(400px);opacity:1} 18%{transform:translateX(400px);opacity:0} 36%{transform:translateX(0);opacity:0} 37%{transform:translateX(0);opacity:1} 52%{transform:translateX(400px);opacity:1} 54%{transform:translateX(400px);opacity:0} 72%{transform:translateX(0);opacity:0} 73%{transform:translateX(0);opacity:1} 84%{transform:translateX(400px);opacity:1} 86%{transform:translateX(400px);opacity:0} 100%{transform:translateX(0);opacity:0} }
+  .pix1 { clip-path:none; animation:pixwipe1 15s linear infinite; animation-timing-function:cubic-bezier(.4,0,.2,1); shape-rendering:crispEdges }
+  .pix2 { clip-path:inset(0 100% 0 0); animation:pixwipe2 15s linear infinite; animation-timing-function:cubic-bezier(.4,0,.2,1); shape-rendering:crispEdges }
+  .pix3 { clip-path:inset(0 100% 0 0); animation:pixwipe3 15s linear infinite; animation-timing-function:cubic-bezier(.4,0,.2,1); shape-rendering:crispEdges }
+  .cycleCursor { opacity:0; animation:cycleCur 15s linear infinite }
+</style>
 <defs>
 <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#2563EB"><animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="10s" repeatCount="indefinite"/></stop>
