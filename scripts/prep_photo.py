@@ -17,14 +17,15 @@ import sys
 import cv2
 import numpy as np
 from PIL import Image
-from rembg import remove
+from rembg import remove, new_session
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "source-prepped.png")
 
 # 1. cut out the subject
-cut = remove(Image.open(INP).convert("RGBA"))
+session = new_session("silueta")               # 43 MB model, downloads on first run
+cut = remove(Image.open(INP).convert("RGBA"), session=session)
 rgb = np.array(cut.convert("RGB"))
 alpha = np.array(cut.split()[-1])                 # 0 = background
 

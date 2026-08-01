@@ -25,6 +25,7 @@ Env overrides: WORDMARK_TEXT, WORDMARK_FONT, WORDMARK_FONT_INDEX, WORDMARK_TILT,
 WORDMARK_COLS, WORDMARK_ROW_MARGIN.  See docs/3d-ascii-wordmark.md.
 """
 import argparse
+import base64
 import html
 import math
 import os
@@ -52,6 +53,9 @@ FONT_INDEX = int(os.environ.get("WORDMARK_FONT_INDEX", 2))   # face within a .tt
 # three letters across the full width leaves ~30 grid columns each, which is what
 # lets the cells be big enough to read as characters rather than as dither.
 TEXT = os.environ.get("WORDMARK_TEXT", "AVI")
+# optional path to a .ttf to embed (base64 @font-face) so the ASCII art renders
+# in a custom face (e.g. a retro pixel font) inside GitHub's <img> sandbox.
+FONT_EMBED = os.environ.get("WORDMARK_FONT_EMBED") or None
 
 MASK_H = 300           # glyph raster height in mask px (drives voxel density)
 TRACKING = 0.14        # extra letter-spacing, in em. counter gaps must survive the
@@ -249,7 +253,15 @@ def emit(frames, mode, out, dur, reveal):
         f'Menlo, Consolas, monospace">',
         '<defs><linearGradient id="wbg" x1="0" y1="0" x2="0" y2="1">'
         f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/>'
-        '</linearGradient></defs>',
+        '</linearGradient>'
+        '</defs>',
+    ]
+    if FONT_EMBED:
+        with open(FONT_EMBED, "rb") as fh:
+            b64 = base64.b64encode(fh.read()).decode()
+        p.append('<style>@font-face{font-family:"Pixel";'
+                 f'src:url(data:font/ttf;base64,{b64}) format("truetype")}}</style>')
+    p += [
         f'<rect width="{canvas_w:.0f}" height="{canvas_h:.0f}" rx="12" fill="url(#wbg)"/>',
         f'<rect x="0.5" y="0.5" width="{canvas_w-1:.0f}" height="{canvas_h-1:.0f}" rx="12" '
         f'fill="none" stroke="{FRAME}" stroke-width="1"/>',
@@ -261,6 +273,7 @@ def emit(frames, mode, out, dur, reveal):
              f'font-size="11.5" text-anchor="middle">mani8148@github: ~$ ./wordmark.sh --3d</text>')
 
     def frame_g(rows, extra=""):
+        fam = f' font-family="Pixel, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"'
         out_rows = []
         for ry, line in enumerate(rows):
             s = line.rstrip()
@@ -274,7 +287,7 @@ def emit(frames, mode, out, dur, reveal):
                 f'<text xml:space="preserve" x="{x:.1f}" y="{y:.1f}" font-size="{fs:.1f}" '
                 f'textLength="{len(body)*CELL_W:.1f}" lengthAdjust="spacing">{html.escape(body)}</text>'
             )
-        return f'<g fill="{INK}"{extra}>' + "".join(out_rows) + "</g>"
+        return f'<g fill="{INK}"{fam}{extra}>' + "".join(out_rows) + "</g>"
 
     if mode == "static":                      # frozen frame 0, for eyeballing a render
         p.append(frame_g(frames[0]))

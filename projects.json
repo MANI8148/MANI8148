@@ -1,38 +1,32 @@
 [
   {
-    "name": "VISIONMATE",
-    "repo": "MANI8148/VISIONMATE",
-    "description": "",
-    "tags": ["TypeScript", "React", "AI"]
-  },
-  {
-    "name": "HakiShell",
-    "repo": "MANI8148/HakiShell",
-    "description": "Under active forging — the Sea Prism Channel and Haki Engine are under construction.",
-    "tags": ["Rust", "Shell"]
-  },
-  {
-    "name": "CampusOR",
-    "repo": "MANI8148/CampusOR",
-    "description": "A smart, real-time virtual queue and reservation system that digitizes campus services using live tracking, predictive wait times, and multi-platform access.",
-    "tags": ["Queue", "Live", "Multi"]
-  },
-  {
-    "name": "DSA",
-    "repo": "MANI8148/DSA",
-    "description": "120-day DSA challenge.",
-    "tags": ["C++", "DSA"]
-  },
-  {
     "name": "SCRIPTY",
     "repo": "MANI8148/SCRIPTY",
-    "description": "",
-    "tags": ["Python", "Scripting"]
+    "description": "Research-oriented storytelling engine — narrative planning, dynamic scene generation, memory-aware retrieval, ML scene prediction, and character agents.",
+    "tags": ["Python", "Flask", "ML"]
+  },
+  {
+    "name": "cloo-track",
+    "repo": "MANI8148/cloo-track",
+    "description": "Full-stack support ticket system with AI-powered triage using Claude (Anthropic).",
+    "tags": ["Django", "React", "AI"]
+  },
+  {
+    "name": "sprite-generator",
+    "repo": "MANI8148/sprite-generator",
+    "description": "From-scratch discrete-latent sprite generator — VQ-VAE encoder + conditional transformer prior, trained on free-tier compute.",
+    "tags": ["Python", "VQ-VAE", "Transformers"]
+  },
+  {
+    "name": "REACT",
+    "repo": "MANI8148/REACT",
+    "description": "React project collection — production-ready crypto wallet with glassmorphism UI, API integrations, and system simulations.",
+    "tags": ["React", "Vite", "Web"]
   },
   {
     "name": "civicLENS",
     "repo": "MANI8148/civicLENS-main-2",
-    "description": "",
+    "description": "TypeScript civic lens platform.",
     "tags": ["TypeScript", "Web"]
   }
 ]
