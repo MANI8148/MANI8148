@@ -2,9 +2,9 @@
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@6054ba4/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@6054ba4/light.svg">
-  <img alt="MAX" src="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@6054ba4/light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@8ccd7c7/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@8ccd7c7/light.svg">
+  <img alt="MAX" src="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@8ccd7c7/light.svg">
 </picture>
 
 <!-- ===== GITHUB STATS ===== -->
