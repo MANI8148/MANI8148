@@ -1,0 +1,38 @@
+[
+  {
+    "name": "VISIONMATE",
+    "repo": "MANI8148/VISIONMATE",
+    "description": "",
+    "tags": ["TypeScript", "React", "AI"]
+  },
+  {
+    "name": "HakiShell",
+    "repo": "MANI8148/HakiShell",
+    "description": "Under active forging — the Sea Prism Channel and Haki Engine are under construction.",
+    "tags": ["Rust", "Shell"]
+  },
+  {
+    "name": "CampusOR",
+    "repo": "MANI8148/CampusOR",
+    "description": "A smart, real-time virtual queue and reservation system that digitizes campus services using live tracking, predictive wait times, and multi-platform access.",
+    "tags": ["Queue", "Live", "Multi"]
+  },
+  {
+    "name": "DSA",
+    "repo": "MANI8148/DSA",
+    "description": "120-day DSA challenge.",
+    "tags": ["C++", "DSA"]
+  },
+  {
+    "name": "SCRIPTY",
+    "repo": "MANI8148/SCRIPTY",
+    "description": "",
+    "tags": ["Python", "Scripting"]
+  },
+  {
+    "name": "civicLENS",
+    "repo": "MANI8148/civicLENS-main-2",
+    "description": "",
+    "tags": ["TypeScript", "Web"]
+  }
+]
