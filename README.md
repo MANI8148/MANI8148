@@ -36,9 +36,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MANI8148/MANI8148/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MANI8148/MANI8148/output/snake-light.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/MANI8148/MANI8148/output/snake-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@output/snake-light.svg" />
+  <img alt="Snake eating my contributions" src="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@output/snake-light.svg" />
 </picture>
 
 </div>
@@ -47,7 +47,7 @@
 <br/>
 <br/>
 <div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/MANI8148/MANI8148/projects/projects.svg" alt="Projects" />
+<img width="100%" src="https://cdn.jsdelivr.net/gh/MANI8148/MANI8148@projects/projects.svg" alt="Projects" />
 </div>
 
 <!-- ===== SOCIAL BADGES ===== -->
