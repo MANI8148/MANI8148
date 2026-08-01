@@ -1,54 +1,15 @@
-<div align="center">
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
-<!-- hero: monochrome ASCII portrait (types in) beside the extruded 3d ascii
-     wordmark (scrambles in left-to-right, then loops forever).
-     portrait: python scripts/prep_photo.py <photo> && python scripts/make_ascii_svg.py
-     wordmark: python scripts/make_wordmark_svg.py --mode shuffle -->
-
-<h3><code>mani8148@github ~ $ whoami</code></h3>
-
-<table>
-<tr>
-<td valign="top"><img src="./ascii-portrait.svg" width="370" alt="MAX — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="MAX — 3D ASCII wordmark" /></td>
-</tr>
-</table>
-
-<br>
-<br>
-
-<!-- animated contribution graph: real data, boxes reveal cell by cell
-     (regenerated daily by .github/workflows/update-profile-art.yml) -->
-
-<h3><code>mani8148@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="MAX's GitHub contribution graph — auto-refreshed daily" />
-
-<br>
-<br>
-
-<h3><code>mani8148@github ~ $ ./stack.sh</code></h3>
-
-<p><b>Fullstack Developer · AI · Competitive Programmer</b></p>
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-0A101F?style=for-the-badge&logo=typescript&logoColor=22D3EE&labelColor=0A101F)](https://www.typescriptlang.org)
-[![React](https://img.shields.io/badge/React-0A101F?style=for-the-badge&logo=react&logoColor=A78BFA&labelColor=0A101F)](https://react.dev)
-[![Node.js](https://img.shields.io/badge/Node.js-0A101F?style=for-the-badge&logo=nodedotjs&logoColor=10B981&labelColor=0A101F)](https://nodejs.org)
-[![Python](https://img.shields.io/badge/Python-0A101F?style=for-the-badge&logo=python&logoColor=22D3EE&labelColor=0A101F)](https://www.python.org)
-[![C++](https://img.shields.io/badge/C++-0A101F?style=for-the-badge&logo=cplusplus&logoColor=A78BFA&labelColor=0A101F)](https://isocpp.org)
-[![Rust](https://img.shields.io/badge/Rust-0A101F?style=for-the-badge&logo=rust&logoColor=10B981&labelColor=0A101F)](https://www.rust-lang.org)
-[![HTML](https://img.shields.io/badge/HTML-0A101F?style=for-the-badge&logo=html5&logoColor=22D3EE&labelColor=0A101F)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-0A101F?style=for-the-badge&logo=css3&logoColor=A78BFA&labelColor=0A101F)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-<br>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MANI8148/MANI8148/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MANI8148/MANI8148/main/light.svg">
+  <img alt="MAX" src="https://raw.githubusercontent.com/MANI8148/MANI8148/main/light.svg">
+</picture>
 
 <!-- ===== GITHUB STATS ===== -->
 
 <div align="center">
-
-<br/>
 
 <!-- Streak — full width -->
 <picture>
@@ -60,12 +21,12 @@
 
 <!-- Stats + Top languages — side by side -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=MANI8148&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MANI8148&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="MAX's GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=MANI8148&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=MANI8148&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="MAX's GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MANI8148&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MANI8148&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=MANI8148&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=MANI8148&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
 </picture>
 
 </div>
@@ -73,8 +34,6 @@
 <!-- ===== CONTRIBUTION SNAKE ===== -->
 
 <div align="center">
-
-<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MANI8148/MANI8148/output/snake-dark.svg" />
@@ -95,10 +54,18 @@
 <br/>
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-manimyths.vercel.app-0A101F?style=for-the-badge&logo=vercel&logoColor=22D3EE&labelColor=0A101F)](https://manimyths.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-manikanta--potla-0A101F?style=for-the-badge&logo=linkedin&logoColor=A78BFA&labelColor=0A101F)](https://www.linkedin.com/in/manikanta-potla/)
-[![Email](https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F)](mailto:manikantapotla3@gmail.com)
-
+<a href="https://manimyths.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=vercel" alt="Portfolio" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/manikanta-potla/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:manikantapotla3@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+</a>
+&nbsp;&nbsp;
 </div>
 
 <!-- ===== END SOCIAL BADGES ===== -->
